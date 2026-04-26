@@ -69,3 +69,19 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+/* Ejercicio 7: Flexbox para navegación */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Ejercicio 7: Flexbox para la lista de proyectos */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el espacio a la izquierda por defecto */
+}
