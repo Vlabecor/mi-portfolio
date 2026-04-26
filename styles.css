@@ -5,28 +5,38 @@
 
 /* Estilos para el título principal */
 h1 {
-    color: #1E3A8A; /* Un color azul oscuro */
-    font-size: 40px; /* Letra más grande */
-    text-align: center; /* Centrado en la pantalla */
+    color: #3861d1;
+    /* Un color azul oscuro */
+    font-size: 40px;
+    /* Letra más grande */
+    text-align: center;
+    /* Centrado en la pantalla */
 }
 
 /* Estilos para todos los párrafos */
 p {
-    color: #333333; /* Un gris oscuro (es mejor para leer que el negro puro) */
-    font-size: 18px; /* Tamaño de lectura cómodo */
-    line-height: 1.6; /* Un poco de espacio entre las líneas para que "respire" */
+    color: #333333;
+    /* Un gris oscuro (es mejor para leer que el negro puro) */
+    font-size: 18px;
+    /* Tamaño de lectura cómodo */
+    line-height: 1.6;
+    /* Un poco de espacio entre las líneas para que "respire" */
 }
 
 /* Estilos para los enlaces */
 a {
-    color: #2563EB; /* Un azul vibrante */
-    text-decoration: none; /* Quitamos el subrayado estándar */
+    color: #3861d1;
+    /* Un azul vibrante */
+    text-decoration: none;
+    /* Quitamos el subrayado estándar */
 }
 
 /* Efecto especial cuando el mouse pasa sobre los enlaces */
 a:hover {
-    color: #1D4ED8; /* Se vuelve un poco más oscuro */
-    text-decoration: underline; /* Aparece el subrayado */
+
+    /* Se vuelve un poco más oscuro */
+    text-decoration: underline;
+    /* Aparece el subrayado */
 }
 
 /* Estilos para nuestras secciones (El Box Model en acción) */
@@ -35,4 +45,27 @@ a:hover {
     margin: 20px 0;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+
+/* Estilo para el body (Lienzo principal) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para el header (Encabezado) */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+}
+
+/* Estilo para el footer (Pie de página) */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
