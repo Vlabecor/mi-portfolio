@@ -25,18 +25,15 @@ p {
 
 /* Estilos para los enlaces */
 a {
-    color: #3861d1;
-    /* Un azul vibrante */
+    color: #3498db;
     text-decoration: none;
-    /* Quitamos el subrayado estándar */
+    transition: color 0.3s ease;
 }
 
 /* Efecto especial cuando el mouse pasa sobre los enlaces */
 a:hover {
-
-    /* Se vuelve un poco más oscuro */
+    color: #2980b9;
     text-decoration: underline;
-    /* Aparece el subrayado */
 }
 
 /* Estilos para nuestras secciones (El Box Model en acción) */
@@ -84,4 +81,33 @@ footer {
     gap: 15px;
     list-style: none; /* Quita los puntos de la lista */
     padding: 0; /* Quita el espacio a la izquierda por defecto */
+}
+
+/* Ejercicio 9: Estilos para la foto de perfil */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ejercicio 8: Responsive Design para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
