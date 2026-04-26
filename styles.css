@@ -1,0 +1,35 @@
+/* Estilos para el título principal */
+h1 {
+    color: #1E3A8A;
+    /* Un color azul oscuro */
+    font-size: 40px;
+    /* Letra más grande */
+    text-align: center;
+    /* Centrado en la pantalla */
+}
+
+/* Estilos para todos los párrafos */
+p {
+    color: #333333;
+    /* Un gris oscuro (es mejor para leer que el negro puro) */
+    font-size: 18px;
+    /* Tamaño de lectura cómodo */
+    line-height: 1.6;
+    /* Un poco de espacio entre las líneas para que "respire" */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #2563EB;
+    /* Un azul vibrante */
+    text-decoration: none;
+    /* Quitamos el subrayado estándar */
+}
+
+/* Efecto especial cuando el mouse pasa sobre los enlaces (opcional pero se ve muy bien) */
+a:hover {
+    color: #1D4ED8;
+    /* Se vuelve un poco más oscuro */
+    text-decoration: underline;
+    /* Aparece el subrayado */
+}
